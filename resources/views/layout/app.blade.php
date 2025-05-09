@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('assets/css/sb-admin-2.min.css')}}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
 </head>
 
@@ -53,13 +54,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
+            @include('layout.footer')
             <!-- End of Footer -->
 
         </div>
@@ -109,6 +104,7 @@
     <!-- Page level custom scripts -->
     <script src="{{asset('assets/js/demo/chart-area-demo.js')}}"></script>
     <script src="{{asset('assets/js/demo/chart-pie-demo.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
 </body>
 
