@@ -19,13 +19,25 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('assets/css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
 <body class="bg-gradient-primary">
-    {{-- @if ($errors->any())
-        @dd($errors->all())
+    @if ($errors->any())
+        <script>
+            Swal.fire({
+                title: "Terjadi Kesalahan",
+                text: "@foreach($errors->all() as $error) {{ $error }}{{ $loop->last?'.':',' }} @endforeach",
+                icon: "error"
+            });
+        </script>
+    @endif
+    {{-- @if ()
+        @dd()
     @endif --}}
+    
+    
     <div class="container">
 
         <!-- Outer Row -->
