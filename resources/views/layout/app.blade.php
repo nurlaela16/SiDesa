@@ -19,8 +19,9 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('assets/css/sb-admin-2.min.css')}}" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-
+    
 </head>
 
 <body id="page-top">
